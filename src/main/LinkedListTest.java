@@ -12,7 +12,7 @@ public class LinkedListTest {
 
     @Test
     public void sizeIterative() throws Exception {
-        LinkedList ll = new LinkedList();
+        LList ll = new LinkedList();
         ll.addNode(1);
         ll.addNode(2);
         ll.addNode(3);
@@ -23,7 +23,7 @@ public class LinkedListTest {
 
     @org.junit.Test
     public void addNode() throws Exception {
-        LinkedList ll = new LinkedList();
+        LList ll = new LinkedList();
         ll.addNode(2);
         ll.addNode(3);
         ll.addNode(22);
@@ -32,7 +32,7 @@ public class LinkedListTest {
 
     @Test
     public void sizeRecursive() throws Exception {
-        LinkedList ll = new LinkedList();
+        LList ll = new LinkedList();
         ll.addNode(1);
         ll.addNode(2);
         ll.addNode(3);

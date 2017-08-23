@@ -1,6 +1,6 @@
 package main;
 
-public class LinkedList {
+public class LinkedList implements LList {
     private Node start;
 
     public LinkedList() {
