@@ -3,6 +3,7 @@ package main;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 /**
  * Created by hardik on 23/08/17.
@@ -51,5 +52,6 @@ public class LinkedListTest {
         ll.addNode(4);
         ll.addNode(5);
         assertEquals(true,ll.search(3));
+        assertFalse(ll.search(7));
     }
 }
