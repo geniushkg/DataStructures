@@ -4,6 +4,7 @@ public class TreeImpl implements Tree {
     private Node root;
 
     public TreeImpl() {
+        root = null;
     }
 
     @Override
