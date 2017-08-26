@@ -1,4 +1,4 @@
-package main;
+package main.linkedlist;
 
 /**
  * Created by hardik on 23/08/17.

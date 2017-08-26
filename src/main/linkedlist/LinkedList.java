@@ -1,4 +1,4 @@
-package main;
+package main.linkedlist;
 
 public class LinkedList implements LList {
     private Node start;
