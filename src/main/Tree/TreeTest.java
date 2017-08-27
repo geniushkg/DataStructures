@@ -12,6 +12,7 @@ public class TreeTest {
     public void testAddChild() throws Exception {
         Tree tree = new TreeImpl();
         tree.addChildWithData(1);
+        tree.addChildWithData(2);
         assertEquals(true,tree.isPresentChildWithData(1));
     }
 
@@ -19,6 +20,7 @@ public class TreeTest {
     public void testFindChild() throws Exception {
         Tree tree = new TreeImpl();
         tree.addChildWithData(1);
+        tree.addChildWithData(2);
         assertFalse(tree.isPresentChildWithData(2));
         assertTrue(tree.isPresentChildWithData(1));
     }
